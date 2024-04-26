@@ -2,10 +2,6 @@ function move() {
     document.getElementById('login').style.display = 'none';
     document.getElementById('SIGN').style.display = 'block';
 }
-    
-
-
-
 function forgot() {
     let email = prompt("Enter your email");
     let useremail = localStorage.getItem('usermail');
@@ -17,11 +13,6 @@ function forgot() {
         alert("Your password is: " + userpass);
     }
 }
-
-
-
-
-
 function login() {
     let email = document.getElementById('email').value
     let password = document.getElementById('password').value
@@ -41,9 +32,6 @@ function login() {
     }
 
 }
-
-
-
 function signup() {
     document.getElementById('login').style.display = 'block';
     document.getElementById('SIGN').style.display = 'none';
